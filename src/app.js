@@ -1,4 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<p>Testing</p>, document.getElementById('app'));
+import IndecisionApp from './components/IndecisionApp';
+
+ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
